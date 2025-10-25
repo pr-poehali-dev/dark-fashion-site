@@ -138,7 +138,7 @@ export default function Index() {
       {activeSection === 'catalog' && (
         <section className="container mx-auto px-6 py-32">
           <div className="flex justify-between items-center mb-12">
-            <h2 className="text-4xl font-light tracking-wider">Каталог</h2>
+            <h2 className="text-4xl tracking-wider font-bold">Каталог</h2>
             <Dialog>
               <DialogTrigger asChild>
                 <Button variant="outline" className="gap-2">
