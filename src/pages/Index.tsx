@@ -423,12 +423,12 @@ export default function Index() {
       )}
 
       <footer className="border-t border-border mt-24">
-        <div className="container mx-auto px-6 py-12">
+        <div className="container mx-auto px-6 py-12 bg-[#000000]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <p className="text-muted-foreground text-sm">© 2025 NOIR. Все права защищены.</p>
+            <p className="text-muted-foreground text-sm font-semibold">© 2025 BALNIK. Все права защищены.</p>
             <div className="flex gap-8 text-sm">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Политика конфиденциальности</a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">Доставка и возврат</a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors font-semibold">Политика конфиденциальности</a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors font-semibold">Доставка и возврат</a>
             </div>
           </div>
         </div>
